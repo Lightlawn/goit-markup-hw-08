@@ -1,0 +1,76 @@
+.advantages-section {
+  background-color: $primary-white-color;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+
+.advantages-list {
+  @extend .list-flex;
+  flex-wrap: wrap;
+
+  @media screen and (max-width: 767px) {
+    max-width: 450px;
+  }
+}
+
+.advantages-item {
+  margin: 15px;
+  width: 100%;
+
+  @media screen and (min-width: 768px) {
+    width: 354px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 270px;
+  }
+}
+
+.advantages-icon {
+  width: 70px;
+  height: 70px;
+}
+
+.icon-background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 450px;
+  height: 120px;
+  background-color: $background-light-color;
+  margin-bottom: 30px;
+  margin-right: auto;
+  margin-left: auto;
+
+  @media screen and (min-width: 768px) {
+    width: 100%;
+  }
+}
+
+.advantage {
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $primary-text-color;
+  margin-bottom: 10px;
+
+  @media screen and (min-width: 768px) {
+    text-align: left;
+  }
+}
+
+.advantage-text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: $secondary-text-color;
+}
