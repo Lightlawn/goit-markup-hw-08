@@ -8,16 +8,6 @@
   }
 }
 
-.section-title {
-  font-weight: bold;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: $primary-text-color;
-  font-size: 36px;
-  line-height: 1.167;
-  margin-bottom: 50px;
-}
-
 .works-list {
   @extend .list-flex;
 }
